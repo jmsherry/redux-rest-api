@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import {Cars} from './features/cars/Cars';
 import './App.css';
@@ -54,6 +53,7 @@ function App() {
         </span> */}
       </header>
       <main>
+      {/* <Counter /> */}
         <Cars />
       </main>
     </div>
